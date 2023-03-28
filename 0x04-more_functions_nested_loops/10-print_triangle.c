@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - prints a triangle, followed by a new line
- * @size: size of the triangle
+ * @size: The size of the triangle
  */
 void print_triangle(int size)
 {
@@ -13,7 +13,7 @@ void print_triangle(int size)
 		_putchar('\n');
 	} else
 	{
-		for (i = 0; i <= size; i++)
+		for (i = 0; i < size; i++)
 		{
 			for (j = size - i; j > 1; j--)
 			{
